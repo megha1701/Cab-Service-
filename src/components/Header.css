@@ -1,0 +1,71 @@
+.logo{
+    font-size: 25px;
+    font-weight: bold;
+    width: 30%;
+    text-shadow: 2px 2px 5px #fff;
+    text-decoration: none;
+  }
+  
+  .logo a{
+    color: black;
+    text-decoration: none;
+  }
+  
+    .pro-img img {
+    height: 50px;
+    }
+  .header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: #aea3f0;
+      box-shadow: 1px 1px 10px #fffcfc;
+  }
+  
+  .header__logo{
+    height: 60px;
+    object-fit: contain;
+    margin-left: 15px;
+  }
+  .header__left{
+    display: flex;
+    align-items: center;
+  }
+  .header__input{
+    display: flex;
+    align-items: center;
+    width: 40%;
+    border: 1px solid lightgray;
+  }
+  
+  .header__inputButton{
+    width: 50px !important;
+    background-color: #fafafa;
+    border: 1px solid lightgray;
+    color: gray;
+  }
+  
+  .header__icons{
+    display: flex;
+    align-items: center;
+  }
+  .header__icon{
+    margin-right: 10px;
+  }
+  
+  .header__input > input{
+    flex: 1;
+    border: none;
+  }
+  
+  .header .pro-title {
+    font-size: 13px;
+    /* padding: 10px; */
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    }

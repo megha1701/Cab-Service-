@@ -1,0 +1,9 @@
+{
+    "json.schemas": [
+       
+
+    ],
+    "emmet.useInlineCompletions": true,
+    "editor.foldingImportsByDefault": true,
+    "js/ts.implicitProjectConfig.checkJs": true
+}

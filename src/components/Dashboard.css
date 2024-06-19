@@ -1,0 +1,80 @@
+.dashboard {
+    flex: 0.8;
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+    padding-bottom: 0;
+  }
+  
+  .dashboard > h2 {
+    margin-left: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .dashboard__section {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .flexcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    /* margin:0px -12px; */
+  }
+  
+  .flexcontainer > div.card {
+    background-color: #fff;
+    width: 15%;
+    margin: 9px;
+    /* min-height: 100px; */
+    text-align: center;
+    /* vertical-align: middle; */
+    line-height: 75px;
+    /* box-sizing: content-box; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .flexcontainer > div.card div.title {
+    font-size: 13px;
+    line-height: 12px;
+    margin: 5px;
+  }
+  
+  .flexcontainer > div.card div.countbubble {
+    /* padding-top: 7%; */
+    margin: 5px;
+  }
+  
+  .flexcontainer > div.card div.title label {
+    line-height: 19px;
+    /* font-weight: 600; */
+    padding-top: 40%;
+    overflow-wrap: initial;
+  }
+  
+  .flexcontainer > div.card div.countbubble span {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px;
+    background-color: #ec1250;
+    border-radius: 5px;
+  }
+  
+  .flexcontainer > div.card div.title label {
+    line-height: 19px;
+    font-weight: 600;
+    padding-top: 40%;
+    overflow-wrap: normal;
+  }
+  
+  .statcards {
+    width: 100%;
+  }
+  
+  .d_section2 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  

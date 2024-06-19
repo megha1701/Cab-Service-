@@ -1,0 +1,35 @@
+
+.main{
+    flex: 0.8;
+    background-color: #FFF;
+    padding: 40px 30px;
+    padding-bottom: 0;
+    height: 90vh;
+    /* background-color: #FFF; */
+    box-shadow: 5px 5px 5px 5px grey;
+    overflow: auto;
+  }
+  
+  .main > h2{
+    margin-left: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .main__section{
+    display: flex; 
+    flex-wrap: wrap;
+    
+  }
+  
+  .card{
+    background-color: #FFF;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid lightgray;
+  }
+  
+  .filter_section{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
